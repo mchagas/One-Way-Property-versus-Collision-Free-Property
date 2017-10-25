@@ -69,9 +69,9 @@ var h = new HashPropety(nBits);
 var start = Date.now();
 h.cfp();
 var finish = Date.now() - start;
-console.log("CFP => Tempo de execução: " + finish + "ms\n");
+console.log("CFP => Tempo de execução: " + finish + "ms\n\n");
 
 start = Date.now();
 h.owp(randomString(10));
 finish = Date.now() - start;
-console.log("OWP => Tempo de execução: " + finish + "ms\n");
+console.log("OWP => Tempo de execução: " + finish + "ms\n\n");
